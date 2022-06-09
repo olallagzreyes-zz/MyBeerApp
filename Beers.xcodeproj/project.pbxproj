@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A07D9622852659800E72C84 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07D9612852659800E72C84 /* User.swift */; };
+		2A07D9642852667500E72C84 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07D9632852667500E72C84 /* NetworkResponse.swift */; };
+		2A07D966285291A000E72C84 /* ModelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07D965285291A000E72C84 /* ModelLoader.swift */; };
 		2A94A9502850B5A800C61C3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94A94F2850B5A800C61C3A /* AppDelegate.swift */; };
 		2A94A9522850B5A800C61C3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94A9512850B5A800C61C3A /* SceneDelegate.swift */; };
 		2A94A9542850B5A800C61C3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94A9532850B5A800C61C3A /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A07D9612852659800E72C84 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2A07D9632852667500E72C84 /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		2A07D965285291A000E72C84 /* ModelLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLoader.swift; sourceTree = "<group>"; };
 		2A94A94C2850B5A800C61C3A /* Beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A94A94F2850B5A800C61C3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A94A9512850B5A800C61C3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A07D937285118D400E72C84 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2A07D9632852667500E72C84 /* NetworkResponse.swift */,
+				2A07D965285291A000E72C84 /* ModelLoader.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2A07D94328511B2000E72C84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A07D9612852659800E72C84 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A07D94B28513AD000E72C84 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A94A9532850B5A800C61C3A /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2A07D94C28513AD600E72C84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A94A9552850B5A800C61C3A /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A07D94D28513AE300E72C84 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		2A94A9432850B5A800C61C3A = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +102,13 @@
 		2A94A94E2850B5A800C61C3A /* Beers */ = {
 			isa = PBXGroup;
 			children = (
+				2A07D94D28513AE300E72C84 /* Utils */,
+				2A07D94C28513AD600E72C84 /* Views */,
+				2A07D94B28513AD000E72C84 /* ViewControllers */,
+				2A07D94328511B2000E72C84 /* Models */,
+				2A07D937285118D400E72C84 /* Networking */,
 				2A94A94F2850B5A800C61C3A /* AppDelegate.swift */,
 				2A94A9512850B5A800C61C3A /* SceneDelegate.swift */,
-				2A94A9532850B5A800C61C3A /* ViewController.swift */,
-				2A94A9552850B5A800C61C3A /* Main.storyboard */,
 				2A94A9582850B5AA00C61C3A /* Assets.xcassets */,
 				2A94A95A2850B5AA00C61C3A /* LaunchScreen.storyboard */,
 				2A94A95D2850B5AA00C61C3A /* Info.plist */,
@@ -138,6 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A07D966285291A000E72C84 /* ModelLoader.swift in Sources */,
+				2A07D9622852659800E72C84 /* User.swift in Sources */,
+				2A07D9642852667500E72C84 /* NetworkResponse.swift in Sources */,
 				2A94A9542850B5A800C61C3A /* ViewController.swift in Sources */,
 				2A94A9502850B5A800C61C3A /* AppDelegate.swift in Sources */,
 				2A94A9522850B5A800C61C3A /* SceneDelegate.swift in Sources */,
